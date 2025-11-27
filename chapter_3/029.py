@@ -18,8 +18,8 @@ def remove_mk(v):
 def get_url(dc):
     url_file = dc["国旗画像"].replace(" ", "_")
     url = (
-        "https://commons.wikimedia.org/w/api.php?action=query&titles=File:"
-        + url_file
+        "https://commons.wikimedia.org/w/api.php?action=query&titles=File:" #?の背後で何をして欲しいか指定
+        + url_filel
         + "&prop=imageinfo&iiprop=url&format=json"
     )
     # User-Agentヘッダーを追加
