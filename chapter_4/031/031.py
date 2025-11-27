@@ -1,6 +1,7 @@
 import spacy
 import csv
 
+# モデルの読み込み
 nlp = spacy.load('ja_ginza')
 
 text = """
@@ -14,12 +15,17 @@ text = """
 
 doc = nlp(text)
 
+# ファイルに書き込み
 output_file = 'verbs_list.csv'
-with open(output_file, 'w', newline='', encoding='utf-8') as f:
+
+with open(output_file, 'w', newline='', encoding='utf-8') as f: # newline=''がないと、謎の空行が入る可能性有
     writer = csv.writer(f)
 
-    for token in doc:
-        if token.pos_ == 'VERB':
-            writer.writerow([token.text])
+    writer.writerow(['元の単語', '基本形'])
 
-    print(f'アウトプット完了：{output_file}')
+    for token in doc:
+        if token.pos_ == 'VERB': # pos = part of speach (品詞)
+            writer.writerow([token.text, token.lemma_]) # lemma = 見出し語 辞書に載っている形
+
+print(f'保存完了： {output_file}')    
+
