@@ -37,6 +37,7 @@ def evaluate_sentiment_analysis():
         with torch.no_grad():
             output_ids = model.generate(input_ids, max_new_tokens=2, do_sample=False)
             generated_text = tokenizer.decode(output_ids[0][len(input_ids[0]):], skip_special_tokens=True).lower()
+            # .lower()で小文字に変換。
 
         # Simple string matching for evaluation
         predicted_label = 1 if "positive" in generated_text else 0
