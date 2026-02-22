@@ -1,0 +1,18 @@
+Tokenization Check
+The
+Ġmovie
+Ġwas
+Ġfull
+Ġof
+
+--- Top 10 Next Tokens ---
+Rank 1: ' jokes' (Probability: 0.0219)
+Rank 2: ' great' (Probability: 0.0186)
+Rank 3: ' laughs' (Probability: 0.0115)
+Rank 4: ' bad' (Probability: 0.0109)
+Rank 5: ' surprises' (Probability: 0.0107)
+Rank 6: ' references' (Probability: 0.0105)
+Rank 7: ' fun' (Probability: 0.0100)
+Rank 8: ' humor' (Probability: 0.0074)
+Rank 9: ' "' (Probability: 0.0074)
+Rank 10: ' the' (Probability: 0.0067)
