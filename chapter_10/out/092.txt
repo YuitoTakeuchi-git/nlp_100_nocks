@@ -1,0 +1,11 @@
+Initial Prompt: The movie was full of
+--------------------------------------------------
+Generated Token      | Probability 
+--------------------------------------------------
+' jokes'             | 0.0219
+' and'               | 0.2892
+' jokes'             | 0.0985
+' about'             | 0.2056
+' how'               | 0.0997
+--------------------------------------------------
+Final Sentence: The movie was full of jokes and jokes about how

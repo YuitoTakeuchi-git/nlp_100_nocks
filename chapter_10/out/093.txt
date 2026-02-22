@@ -1,0 +1,18 @@
+--- Perplexity Measurement ---
+
+Sentence: The movie was full of surprises
+Loss: 4.5987
+Perplexity: 99.3546
+------------------------------
+Sentence: The movies were full of surprises
+Loss: 4.8401
+Perplexity: 126.4806
+------------------------------
+Sentence: The movie were full of surprises
+Loss: 5.6308
+Perplexity: 278.8802
+------------------------------
+Sentence: The movies was full of surprises
+Loss: 5.6155
+Perplexity: 274.6592
+------------------------------

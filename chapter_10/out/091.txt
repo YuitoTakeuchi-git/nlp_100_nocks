@@ -1,0 +1,17 @@
+Prompt: The movie was full of
+
+--- Greedy Search ---
+The movie was full of jokes and jokes about how the movie was a joke. It was a joke
+
+--- Beam Search (num_beams=5) ---
+The movie was full of jokes and jokes and jokes and jokes and jokes and jokes and jokes and jokes
+
+--- High Temperature (temp=2.0) ---
+The movie was full of terrible action sequences about aliens landing on planets beyond our galaxy by using a rocket
+
+--- Low Temperature (temp=0.5) ---
+The movie was full of great characters and great performances. It was all about the characters. And that
+
+--- Top-p Sampling (p=0.9) ---
+The movie was full of jokes and an honest portrayal of the situation with people who had been in that
+
