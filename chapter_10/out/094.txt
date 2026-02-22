@@ -1,0 +1,12 @@
+--- Prepared Prompt with Chat Template ---
+<|system|>
+You are a helpful assistant.</s>
+<|user|>
+What do you call a sweet eaten after dinner?</s>
+<|assistant|>
+
+
+==================================================
+
+--- Model Response ---
+In English, a sweet eaten after dinner is called post-dinner snack or dessert.
