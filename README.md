@@ -4,7 +4,7 @@
 
 ## 概要
 
-自然言語処理（NLP）の基礎から応用までを段階的に学ぶための演習問題集です。文字列操作から始まり、形態素解析、機械学習、ニューラルネットワーク、BERTまでを網羅しています。
+自然言語処理（NLP）の基礎から応用までを段階的に学ぶための演習問題集です。文字列操作から始まり、形態素解析、機械学習、ニューラルネットワーク、Transformer、LLMの生成・評価・微調整までを網羅しています。
 
 ## 章構成
 
@@ -19,6 +19,7 @@
 | [Chapter 7](chapter_7/) | 機械学習 | 60-69 | ロジスティック回帰、BoW、評価指標 |
 | [Chapter 8](chapter_8/) | ニューラルネットワーク | 70-79 | PyTorch、Embedding、LSTM |
 | [Chapter 9](chapter_9/) | Transformers | 80-89 | BERT、Hugging Face Transformers |
+| [Chapter 10](chapter_10/) | 大規模言語モデルの応用 | 90-99 | GPT-2/TinyLlama、デコード比較、Perplexity、LoRA、DPO |
 
 ## 使用技術・ライブラリ
 
@@ -31,6 +32,9 @@
   - `gensim` - 単語ベクトル
   - `pytorch` - ニューラルネットワーク
   - `transformers` - BERT等のTransformerモデル
+  - `datasets` - 評価・学習用データセット
+  - `peft`, `trl` - LoRA/DPOによる軽量ファインチューニング
+  - `accelerate` - 大規模モデル実行支援
   - `matplotlib` - 可視化
 
 ## 環境構築
@@ -56,7 +60,8 @@ nlp_100_nocks/
 ├── chapter_6/          # 単語ベクトル
 ├── chapter_7/          # 機械学習
 ├── chapter_8/          # ニューラルネットワーク
-└── chapter_9/          # Transformers
+├── chapter_9/          # Transformers
+└── chapter_10/         # 大規模言語モデルの応用
 ```
 
 ## 参考リンク
